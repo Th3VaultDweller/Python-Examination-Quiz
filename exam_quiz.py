@@ -42,3 +42,10 @@ exam_questions_and_answers_chinese = {
     "14. M. Bennett 的掌握外国文化和培养跨文化能力模式。国际协调委员会中的民族中心主义与民族相对主义。": "",
     "15. 现代语言学中的语料库方法：主要语料库的特点及其在不同领域的应用可能性。": "",
 }
+
+# получние случайной пары ключ-значение из словаря на китайском языке
+question_chinese, answer_chinese = random.choice(
+    list(exam_questions_and_answers_chinese.items())
+)
+
+print(question_chinese, answer_chinese)
